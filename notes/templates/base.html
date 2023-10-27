@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Daniel Vera Paredes" />
+    <meta name="description" content="Registro de Notas" />
+    <meta name="keywords" content="estudiantes, asignaturas, profesor, notas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro Notas</title>
+    <!-- fuentes de google font -->
+  </head>
+  <body>
+    {% comment %} <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            {% if user.is_authenticated %}
+                <li><a href="/students">Estudiantes</a></li>
+                <li><a href="/logout">Salir</a></li>
+            {% else %}
+                <li><a href="/register">Registrarse</a></li>
+                <li><a href="/login">Iniciar Sesion</a></li>
+            {% endif %}
+            
+        </ul>
+    </nav>
+    
+    
+    {% block content %}{% endblock content %} {% endcomment %}
+  </body>
+</html>

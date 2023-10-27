@@ -1,0 +1,10 @@
+# Ignore pycache directories
+__pycache__
+
+# Ignore the virtual environment
+entornoa/
+
+# Ignore database files
+*.sqlite3
+# var the enviroment
+.env
